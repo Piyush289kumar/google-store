@@ -6,7 +6,7 @@ import { FaCircleUser } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <div className="w-full">
+    <div className="w-full z-[999] relative">
       <nav className="w-full flex items-center justify-between px-14 py-4 shadow-lg fixed bg-zinc-100">
         <div className="w-1/2 flex items-center gap-6">
           <img
