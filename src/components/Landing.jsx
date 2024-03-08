@@ -2,8 +2,8 @@ import React from "react";
 
 function Landing() {
   return (
-    <div className="w-full h-screen pt-8 mb-12 px-16 overflow-hidden">
-      <div className='w-full h-[100vh] rounded-3xl bg-cover bg-center bg-[url("https://lh3.googleusercontent.com/kXTkBFmo_WeR6EoftfsZrswuhhya-ulHWbd3ic3dHpHEC0_W96WSp6_PQHMEPO6CFDVHsM8yr8cZl1tMpz-pMNU0_3VgDrOJV-s=rw-e365-nu-w1750")]'>
+    <div className="w-full h-[120vh] pt-20 px-16 overflow-hidden">
+      <div className='w-full h-screen rounded-3xl bg-cover bg-center bg-[url("https://lh3.googleusercontent.com/kXTkBFmo_WeR6EoftfsZrswuhhya-ulHWbd3ic3dHpHEC0_W96WSp6_PQHMEPO6CFDVHsM8yr8cZl1tMpz-pMNU0_3VgDrOJV-s=rw-e365-nu-w1750")]'>
         <div className="w-full flex flex-col justify-center items-center">
           <h1 className="text-zinc-700 font-bold text-6xl leading-none tracking-tight mt-4">
             Now in Mint.
