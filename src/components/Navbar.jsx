@@ -7,7 +7,7 @@ import { FaCircleUser } from "react-icons/fa6";
 function Navbar() {
   return (
     <div className="w-full">
-      <nav className="w-full flex items-center justify-between px-14 py-4">
+      <nav className="w-full flex items-center justify-between px-14 py-4 shadow-lg">
         <div className="w-1/2 flex items-center gap-6">
           <img
             className="w-7 h-7 bg-zinc-50 rounded-full"
@@ -25,10 +25,10 @@ function Navbar() {
           ))}
         </div>
         <div className="w-1/2 flex justify-end items-center gap-6">
-          <IoMdSearch size={24} color="#5F6368" />
-          <AiFillQuestionCircle size={24} color="#5F6368" />
-          <IoMdCart size={24} color="#5F6368" />
-          <FaCircleUser size={24} color="#5F6368" />
+          <IoMdSearch size={24} color="#5F6368"  className="cursor-pointer"/>
+          <AiFillQuestionCircle size={24} color="#5F6368" className="cursor-pointer"/>
+          <IoMdCart size={24} color="#5F6368" className="cursor-pointer" />
+          <FaCircleUser size={24} color="#5F6368" className="cursor-pointer" />
         </div>
       </nav>
     </div>

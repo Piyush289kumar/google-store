@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Landing, Navbar } from "./components";
 function App() {
   return (
     <>
       <div className="w-full h-screen bg-[#FFFFFF]">
         <Navbar />
+        <Landing />
       </div>
     </>
   );
