@@ -2,7 +2,7 @@ import React from "react";
 
 function ChilCards({ urlOne, urlTwo }) {
   return (
-    <div className="w-full h-full px-16 mb-40 flex justify-center items-center gap-8">
+    <div className="w-full h-full mb-24 pb-1 px-16 flex justify-center items-center gap-8">
       <div className="w-1/2 h-full rounded-3xl bg-cover bg-center bg-[#E3EEFC] flex justify-between items-center flex-col overflow-hidden relative">
         <div className="w-full h-1/2 flex flex-col justify-center items-center px-24 -mt-16">
           <p className="text-zinc-800">Pixel Buds Pro</p>
