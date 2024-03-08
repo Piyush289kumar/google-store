@@ -34,9 +34,9 @@ function ChilCards({ urlOne, urlTwo }) {
           </button>
         </div>
 
-        <div className="w-full h-full absolute top-[22%] scale-[1.3]">
+        <div className="w-full h-full absolute top-[38%] scale-[1.3]">
           <div
-            className={`w-full h-full bg-cover bg-no-repeat bg-[url(https://lh3.googleusercontent.com/x1CI2fDPyouo8AyUNusv1Wpcc-sIKDHyrt84_Mv2z9x9oUsi_dKGEzhPiiN4J-Bqb3Akaaejp0EFaqdTPLQ203rKfn17MlenPh9v)]`}
+            className={`w-full h-full bg-center bg-cover bg-no-repeat bg-[url(https://lh3.googleusercontent.com/ma45T24iXhsnRxGAeCfNT7rUlNGWKYLEcqlP03E4p_u90GeuHymr4e5q96UP6yJxC-aM0IJYaPmZEniTbJiYI1RCthlmIq0EtdBy=rw-e365-nu-w563)]`}
           ></div>
         </div>
       </div>
