@@ -1,7 +1,8 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function ChilCards({ urlOne, urlTwo, topPositionOne, topPositionTwo }) {
-  console.log(`urlOne : ${urlOne}`);
+  
   return (
     <div className="w-full h-full pb-1 px-16 flex justify-center items-center gap-8">
       <div className="w-1/2 h-full rounded-3xl bg-cover bg-center bg-[#E3EEFC] flex justify-between items-center flex-col overflow-hidden relative">

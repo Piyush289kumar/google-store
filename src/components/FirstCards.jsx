@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function FirstCards() {
   return (
-    <div className="w-full h-auto py-8 px-16">
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 2, ease: "easeOut" }}
+      className="relative w-full h-auto py-8 px-16"
+    >
       <div className="w-full h-[88vh] rounded-3xl bg-cover bg-center bg-[#E3EEFC] flex justify-between items-center flex-row-reverse overflow-hidden">
         <div className="w-1/2 h-full flex flex-col justify-center items-start px-24">
           <p className="text-zinc-800 my-3">Google Pixel Watch 2</p>
@@ -29,9 +35,8 @@ function FirstCards() {
         <div className="w-1/2 h-full relative">
           <div className='w-full h-[80vh] absolute top-[19%] left-[2%] bg-contain bg-no-repeat bg-[url("https://lh3.googleusercontent.com/m-EKuG8rRZ_CUm0F7TgRiVCEnZ6gcEZAN93Qu_Gun5HDvjmwphPeDYeZ9kkVAEPEjISWFxojQCcUG6D8jkKa2FRB_gDZCwJmW7E=rw-e365-w1200")]'></div>
         </div>
-
       </div>
-    </div>
+    </motion.div>
   );
 }
 

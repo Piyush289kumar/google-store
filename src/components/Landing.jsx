@@ -1,9 +1,15 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function Landing() {
   return (
     <div className="w-full h-[120vh] pt-20 px-16 overflow-hidden rounded-3xl">
-      <div className='w-full h-full rounded-3xl bg-cover bg-center bg-[url("https://lh3.googleusercontent.com/kXTkBFmo_WeR6EoftfsZrswuhhya-ulHWbd3ic3dHpHEC0_W96WSp6_PQHMEPO6CFDVHsM8yr8cZl1tMpz-pMNU0_3VgDrOJV-s=rw-e365-nu-w1750")]'>
+      <motion.div
+        initial={{opacity: 0, y: 100}}
+        animate={{opacity: 1, y: 0}}
+        transition={{duration: 1, ease: "easeOut"}}
+        className='w-full h-full rounded-3xl bg-cover bg-center bg-[url("https://lh3.googleusercontent.com/kXTkBFmo_WeR6EoftfsZrswuhhya-ulHWbd3ic3dHpHEC0_W96WSp6_PQHMEPO6CFDVHsM8yr8cZl1tMpz-pMNU0_3VgDrOJV-s=rw-e365-nu-w1750")]'
+      >
         <div className="w-full flex flex-col justify-center items-center">
           <h1 className="text-zinc-700 font-bold text-6xl leading-none tracking-tight mt-4">
             Now in Mint.
@@ -15,7 +21,7 @@ function Landing() {
             Learn more
           </button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
