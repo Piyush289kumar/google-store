@@ -5,5 +5,6 @@ import ChilCards from "./ChilCards";
 import WalkInCenter from "./WalkInCenter";
 import SecondCards from './SecondCards'
 import ChilCardsTwo from "./ChilCardsTwo";
+import InfoSection from './InforSection'
 
-export {Navbar, Landing, FirstCards, ChilCards, WalkInCenter, SecondCards, ChilCardsTwo}
+export {Navbar, Landing, FirstCards, ChilCards, WalkInCenter, SecondCards, ChilCardsTwo, InfoSection}

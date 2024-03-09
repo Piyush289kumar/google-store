@@ -7,6 +7,7 @@ import {
   Navbar,
   SecondCards,
   WalkInCenter,
+  InfoSection,
 } from "./components";
 import LocomotiveScroll from "locomotive-scroll";
 
@@ -33,6 +34,8 @@ function App() {
         <ChilCardsTwo />
 
         <SecondCards />
+
+        <InfoSection />
       </div>
     </>
   );
