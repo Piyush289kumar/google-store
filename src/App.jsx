@@ -1,9 +1,11 @@
 import React from "react";
 import {
   ChilCards,
+  ChilCardsTwo,
   FirstCards,
   Landing,
   Navbar,
+  SecondCards,
   WalkInCenter,
 } from "./components";
 import LocomotiveScroll from "locomotive-scroll";
@@ -17,8 +19,7 @@ function App() {
         <Landing />
         <FirstCards />
         <ChilCards
-        topPositionOne={"22%"}          
-          
+          topPositionOne={"22%"}
           urlOne={
             "bg-[url(https://lh3.googleusercontent.com/x1CI2fDPyouo8AyUNusv1Wpcc-sIKDHyrt84_Mv2z9x9oUsi_dKGEzhPiiN4J-Bqb3Akaaejp0EFaqdTPLQ203rKfn17MlenPh9v)]"
           }
@@ -29,17 +30,9 @@ function App() {
         />
         <WalkInCenter />
 
-        <ChilCards
-          topPositionOne={"35%"}
-          urlOne={
-            "bg-[url(https://raw.githubusercontent.com/Piyush289kumar/google-store/main/src/assets/images/homeMini.png)]"
-          }
-          topPositionTwo={"38%"}
-          urlTwo={
-            "bg-[url(https://raw.githubusercontent.com/Piyush289kumar/google-store/main/src/assets/images/homeMini.png)]"
-          }
-        />
-        <FirstCards />
+        <ChilCardsTwo />
+
+        <SecondCards />
       </div>
     </>
   );
