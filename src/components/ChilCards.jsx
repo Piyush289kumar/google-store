@@ -1,7 +1,7 @@
 import React from "react";
 
-function ChilCards({ urlOne, urlTwo }) {
-  console.log(urlOne);
+function ChilCards({ urlOne, urlTwo, topPositionOne, topPositionTwo }) {
+  console.log(`urlOne : ${urlOne}`);
   return (
     <div className="w-full h-full pb-1 px-16 flex justify-center items-center gap-8">
       <div className="w-1/2 h-full rounded-3xl bg-cover bg-center bg-[#E3EEFC] flex justify-between items-center flex-col overflow-hidden relative">
@@ -16,9 +16,9 @@ function ChilCards({ urlOne, urlTwo }) {
           </button>
         </div>
 
-        <div className="w-full h-full absolute top-[22%] scale-[1.3]">
+        <div className={`w-full h-full absolute top-[${topPositionOne}] scale-[1.3]`}>
           <div
-            className={`w-full h-full bg-cover bg-no-repeat bg-[url(${urlOne})]`}
+            className={`w-full h-full bg-cover bg-no-repeat ${urlOne}`}
           ></div>
         </div>
       </div>
@@ -35,9 +35,9 @@ function ChilCards({ urlOne, urlTwo }) {
           </button>
         </div>
 
-        <div className="w-full h-full absolute top-[38%] scale-[1.3]">
+        <div className={`w-full h-full absolute top-[${topPositionTwo}] scale-[1.3]`}>
           <div
-            className={`w-full h-full bg-center bg-cover bg-no-repeat bg-[url(${urlTwo})]`}
+            className={`w-full h-full bg-center bg-cover bg-no-repeat ${urlTwo}`}
           ></div>
         </div>
       </div>
