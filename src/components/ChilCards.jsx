@@ -1,8 +1,9 @@
 import React from "react";
 
 function ChilCards({ urlOne, urlTwo }) {
+  console.log(urlOne);
   return (
-    <div className="w-full h-full mb-24 pb-1 px-16 flex justify-center items-center gap-8">
+    <div className="w-full h-full pb-1 px-16 flex justify-center items-center gap-8">
       <div className="w-1/2 h-full rounded-3xl bg-cover bg-center bg-[#E3EEFC] flex justify-between items-center flex-col overflow-hidden relative">
         <div className="w-full h-1/2 flex flex-col justify-center items-center px-24 -mt-16">
           <p className="text-zinc-800">Pixel Buds Pro</p>
@@ -17,7 +18,7 @@ function ChilCards({ urlOne, urlTwo }) {
 
         <div className="w-full h-full absolute top-[22%] scale-[1.3]">
           <div
-            className={`w-full h-full bg-cover bg-no-repeat bg-[url(https://lh3.googleusercontent.com/x1CI2fDPyouo8AyUNusv1Wpcc-sIKDHyrt84_Mv2z9x9oUsi_dKGEzhPiiN4J-Bqb3Akaaejp0EFaqdTPLQ203rKfn17MlenPh9v)]`}
+            className={`w-full h-full bg-cover bg-no-repeat bg-[url(${urlOne})]`}
           ></div>
         </div>
       </div>
@@ -36,7 +37,7 @@ function ChilCards({ urlOne, urlTwo }) {
 
         <div className="w-full h-full absolute top-[38%] scale-[1.3]">
           <div
-            className={`w-full h-full bg-center bg-cover bg-no-repeat bg-[url(https://lh3.googleusercontent.com/ma45T24iXhsnRxGAeCfNT7rUlNGWKYLEcqlP03E4p_u90GeuHymr4e5q96UP6yJxC-aM0IJYaPmZEniTbJiYI1RCthlmIq0EtdBy=rw-e365-nu-w563)]`}
+            className={`w-full h-full bg-center bg-cover bg-no-repeat bg-[url(${urlTwo})]`}
           ></div>
         </div>
       </div>
