@@ -8,9 +8,9 @@ import {
   SecondCards,
   WalkInCenter,
   InfoSection,
+  CopyRight,
 } from "./components";
 import LocomotiveScroll from "locomotive-scroll";
-
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -30,15 +30,12 @@ function App() {
           }
         />
         <WalkInCenter />
-
         <ChilCardsTwo />
-
         <SecondCards />
-
         <InfoSection />
+        <CopyRight />
       </div>
     </>
   );
 }
-
 export default App;

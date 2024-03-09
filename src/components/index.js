@@ -6,5 +6,6 @@ import WalkInCenter from "./WalkInCenter";
 import SecondCards from './SecondCards'
 import ChilCardsTwo from "./ChilCardsTwo";
 import InfoSection from './InforSection'
+import CopyRight from "./CopyRight";
 
-export {Navbar, Landing, FirstCards, ChilCards, WalkInCenter, SecondCards, ChilCardsTwo, InfoSection}
+export { Navbar, Landing, FirstCards, ChilCards, WalkInCenter, SecondCards, ChilCardsTwo, InfoSection, CopyRight }
